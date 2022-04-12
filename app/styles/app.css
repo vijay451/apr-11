@@ -1,0 +1,61 @@
+.task{
+    text-align: center;
+    background-color: rgb(225, 223, 223);;
+}
+
+.addTask{
+    margin-top: 30px;
+    margin-right: 200px;
+}
+
+.button{
+    margin-top: 40px;
+    margin-right: 605px;
+}
+
+.table{
+    margin-top: 35px;
+    margin-left: 330px;
+    
+}
+
+.details{
+    border: 1px solid lightgrey;
+    background-color: white;
+}
+
+#due{
+    padding-left: 300px;
+}
+
+.edit{
+    margin-top: 30px;
+    margin-right: 724px;
+}
+
+.editBox{
+    margin-top: 30px;
+    margin-right: 200px;
+}
+
+#buttonSpace{
+    padding-left: 35px;
+}
+
+.editButton{
+    background-color: white;
+}
+
+img{
+    margin-left: 950px;
+    margin-top: -150px;
+    height: 300px;
+}
+
+.btn{
+    margin-top: -4px;
+}
+
+h1{
+    margin-right: 150px;
+}
