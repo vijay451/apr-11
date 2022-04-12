@@ -1,0 +1,35 @@
+<div class="button"> 
+<button type= "button" class= "btn btn-primary" >All</button>
+<button type= "button" class= "btn btn-primary" >Complete</button>
+<button type= "button" class= "btn btn-primary" >Incomplete</button>
+</div>
+<table>
+<div class= "table table-borderless">
+{{#each values as |value index |}}
+    <tr>
+        <div class= "details">
+        <td>
+            <input type="checkbox">
+        </td>
+         
+        <td>
+            <span>{{index}}:{{value.due}}</span>
+        </td>
+        <td id= "due">
+            <span>{{value.description}}</span>
+        </td>
+        
+        </div>
+        <td>
+            <div class= "btn">
+             <button type= "button" class= "btn btn-light" id="buttonSpace"> <i class="fa fa-pencil-square-o"></i>Edit</button>
+             <button type= "button" class= "btn btn-danger" onclick={{action "removeClick" value.id}}><i class="fa fa-trash-o "></i>Remove</button>
+             
+             </div>
+       </td>
+     </tr>
+      
+     {{/each}}
+</div>
+
+</table>

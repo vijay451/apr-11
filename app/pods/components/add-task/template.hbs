@@ -1,0 +1,9 @@
+<div class= "addTask"> 
+<label>Due</label>
+<input type= "text" class= "due" id="due" onInput={{action "dueChange"}}>
+
+<label>Task Description</label>
+<input type ="text" class="description" id="description" onInput= {{action "descriptionChange"}}>
+
+<button type="button" class= "btn btn-light" onclick={{action "addBtn" }}>Add</button>
+</div>
